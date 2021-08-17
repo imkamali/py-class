@@ -1,3 +1,4 @@
+#Take the length and width with each input unit,declare the area in square meters
 def Area():
     
     length=float(input("Enter the length: \n"))
@@ -17,5 +18,4 @@ def Area():
         Area=length*width
         return Area
 Area=Area()
-print("Area is" ,round(Area,4), "m^2" )
-        
+print("Area is" ,round(Area,4), "m^2")
