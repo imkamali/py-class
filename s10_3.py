@@ -6,14 +6,6 @@ class Adam:
     def salam(self):
         print(f'salam man {self.name} hastam {self.age}sale az TEH')
         
-# class Daneshjoo:
-#     def __init__(self, name, age, major):
-#         self.name = name
-#         self.age = age
-#         self.major = major
-#     def salam(self):
-#         print(f'salam man {self.name} hastam {self.age}, {self.major}')
-
 class Karmand(Adam):
     def __init__(self, name, age, job, office):
         Adam.__init__(self,name, age)
